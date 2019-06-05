@@ -94,9 +94,20 @@ matt.forward(100)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
+
+clayton_1 = rg.SimpleTurtle('turtle')
+clayton_1.pen = rg.Pen('blue', 50)
+clayton_1.speed = 5  # Faster
+clayton_1.forward(50)
+clayton_1.left(45)
+clayton_1.forward(50)
+clayton_1.right(55)
+clayton_1.backward(150)
+clayton_1.left(65)
+clayton_1.forward(100)
 #
 #   Below this TO DO comment construct another SimpleTurtle object,
 #       naming it whatever you want.
@@ -115,7 +126,7 @@ matt.forward(100)
 
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
